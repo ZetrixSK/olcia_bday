@@ -129,7 +129,7 @@ export default function SequencePuzzle({ onComplete }) {
           You got {correctAnswers} out of {REVIEWS.length} correct!
         </p>
         {passed ? (
-          <p className="text-pink-300">✨ You finished the challenges! ✨</p>
+          <p className="text-pink-300">✨ You're almost done! ✨</p>
         ) : (
           <button
             onClick={() => {
@@ -268,7 +268,7 @@ export default function SequencePuzzle({ onComplete }) {
               onClick={handleSkip}
               className="mt-4 w-full px-4 py-2 bg-transparent hover:bg-white/5 border border-white/20 rounded-xl text-white/50 hover:text-white/80 text-sm transition-all"
             >
-              ⏭️ Give up & reveal answer
+              Reveal the answer
             </button>
           </div>
         )}

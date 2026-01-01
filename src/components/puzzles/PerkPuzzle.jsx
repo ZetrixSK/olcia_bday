@@ -226,7 +226,7 @@ export default function PerkPuzzle({ onComplete }) {
               onClick={handleSkip}
               className="mt-4 w-full px-4 py-2 bg-transparent hover:bg-white/5 border border-white/20 rounded-xl text-white/50 hover:text-white/80 text-sm transition-all"
             >
-              ⏭️ Give up & reveal answer
+              Reveal the answer
             </button>
           </div>
         )}
