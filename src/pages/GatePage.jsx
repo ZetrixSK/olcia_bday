@@ -25,7 +25,7 @@ export default function GatePage({ onUnlock }) {
       <div className="w-full max-w-sm px-6 relative z-10">
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="text-center mb-10">
-            <h1 className="text-4xl font-bold mb-2 title-gradient">
+            <h1 className="text-4xl font-bold mb-2 title-gradient pt-2 leading-relaxed">
               ✨ Welcome ✨
             </h1>
             <p className="text-[#ffb6c1] text-sm tracking-wide">

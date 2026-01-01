@@ -59,7 +59,7 @@ export default function HubPage({
           <div className="inline-block mb-5">
             <span className="text-6xl drop-shadow-lg">🎂</span>
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold tracking-wide mb-4 title-gradient">
+          <h1 className="text-5xl md:text-6xl font-bold tracking-wide mb-4 title-gradient pt-2 leading-relaxed">
             Olcia Birthday 2026
           </h1>
           <p className="text-[#ffb6c1] text-base flex items-center justify-center gap-3 font-medium">
